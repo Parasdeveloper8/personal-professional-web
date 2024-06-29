@@ -36,7 +36,7 @@ header{
     font-family: 'system-ui',sans-serif ;
 }
 footer{
-    background-color: #edd9d9;
+    background-color: silver;
 }
 footer > h3{
     font-family:'Courier New', Courier, monospace ;
@@ -85,6 +85,7 @@ main{
     display: flex;
     justify-content: center;
     border-radius:3vw;
+    box-shadow:0 0 2vh black;
 }
 #project-slider{
     margin-left: 0;
@@ -93,7 +94,49 @@ main{
     justify-content: center;
 }
 .sans-bold{
-    font-weight:900;
+    font-weight:700;
     font-family: sans-serif;
     text-align: center;
+}
+#home{
+    background-image: url("/projects-photos/scattered-forcefields.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#myimage{
+    width:20vw;
+    height: 20vw;
+    border-radius: 100%;
+    margin-left: 5vw;
+}
+.text{
+    width:40vw;
+    box-shadow: 0 0 3px black;
+    border-radius: 3vh;
+    margin-left: 5vw;
+}
+.text:hover{
+    transform: scale(1.1);
+}
+.text > p{
+    font-size: 2rem;
+    font-family:'Roboto',sans-serif;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+.text > .name{
+    font-size: 3rem;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+.grid-info{
+    display: flex;
+    align-items: center;
+}
+.p-says{
+    font-family: sans-serif;
+    margin-left: 5vw;
+}
+.size{
+    width:7vw;
+    height:7vw;
 }
