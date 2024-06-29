@@ -1,0 +1,99 @@
+ *{
+        scroll-behavior: smooth;
+    }
+body{
+          width:100vw;
+          height:100vh;
+          margin:0;
+          overflow-x:hidden;
+          box-sizing: border-box;
+      }
+header{
+    width:100vw;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+    box-shadow: 0 0 2px black;
+    display: flex;
+}
+.hover-div{
+          border-radius: 2vh;
+          text-align: center;
+          width:15vw;
+          padding-top: 2.5vh;
+          padding-bottom: 2.5vh;
+    }
+.hover-div:hover{
+     background-color: rgb(240, 13, 13);
+    }
+.decor{
+    text-decoration:none;
+    color:white;
+    font-weight: 600;
+    font-size:2em;
+    font-family: 'system-ui',sans-serif ;
+}
+footer{
+    background-color: #edd9d9;
+}
+footer > h3{
+    font-family:'Courier New', Courier, monospace ;
+}
+.footer-icon{
+    width:30vw;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.footer-icon > p{
+  padding-left: 3vw;
+  font-family: 'system-ui',sans-serif;
+  font-weight: 600;
+}
+.footer-icon > img{
+  padding-left: 2vw;
+}
+.icon-container{
+       width: 90vw;
+       display:flex;
+       margin-left:5vw;
+       margin-right: 5vw;
+}
+.main-footer-cont{
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.text-center{
+    display:flex;
+    justify-content: center;
+}
+.foot-h1{
+   color:black;
+}
+main{
+    margin-top: 15vh;
+    width:100vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+#project-image{
+    width:60vw;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    border-radius:3vw;
+}
+#project-slider{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+}
+.sans-bold{
+    font-weight:900;
+    font-family: sans-serif;
+    text-align: center;
+}
