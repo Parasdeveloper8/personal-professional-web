@@ -203,7 +203,7 @@ main{
     color:red;
     font-family: sans-serif;
 }
-@media only screen and (max-width:700px){
+@media only screen and (max-width:1100px){
     header{
         display:flex;
         justify-content:space-evenly;
@@ -241,5 +241,11 @@ main{
     }
     #project-image{
         width:80vw;
+    }
+    #person{
+        max-height:30vh;
+        min-height:15vh;
+        max-width:30vh;
+        min-width115vh;
     }
 }
