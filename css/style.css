@@ -26,11 +26,13 @@ header{
           padding-bottom: 2.5vh;
     }
 .hover-div:hover{
-     background-color: rgb(240, 13, 13);
+     border:1px solid black;
+     box-shadow:0 0 2px black;
+     cursor:pointer;
     }
 .decor{
     text-decoration:none;
-    color:white;
+    color:black;
     font-weight: 600;
     font-size:2em;
     font-family: 'system-ui',sans-serif ;
@@ -139,4 +141,65 @@ main{
 .size{
     width:7vw;
     height:7vw;
+}
+.fieldset{
+    border:2px solid black;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    border-radius: 5vh;
+    box-shadow: 0 0 2px black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fieldset:hover{
+    transform:scale(1.1);
+}
+.fieldset-container{
+    margin-top: 1vh;
+}
+.pf-cont{
+    display:flex;
+}
+#person{
+   height: 40vh;
+   margin-left: 5vh;
+}
+.coder-text{
+    display: flex;
+}
+.p-says2{
+    margin-left: 2vw;
+}
+.zoom:hover{
+    transform:scale(1.1);
+}
+.repo-con{
+    width:5vw;
+    height:5vw;
+    background-image: linear-gradient(to bottom ,green ,rgba(0, 128, 0, 0.756));
+    color:white;
+    border-radius: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.5rem;
+}
+.s-info{
+   display:flex;
+}
+.pofr{
+    font-size:2rem;
+    font-family: sans-serif;
+    font-weight:600;
+}
+.p-rc{
+    display:flex;
+    align-items: center;
+    margin-left: 5vw;
+}
+.m-quote{
+    text-align:center;
+    font-size:1.5rem;
+    color:red;
+    font-family: sans-serif;
 }
