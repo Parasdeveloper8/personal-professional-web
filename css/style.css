@@ -21,9 +21,7 @@ header{
 .hover-div{
           border-radius: 2vh;
           text-align: center;
-          width:15vw;
-          padding-top: 2.5vh;
-          padding-bottom: 2.5vh;
+          padding: 2vw;
     }
 .hover-div:hover{
      border:1px solid black;
@@ -232,9 +230,10 @@ main{
        flex-direction:column;
     }
     .repo-con{
-    width:15vw;
-    height:15vw;
-     font-size:2rem;
+        width:5rem;
+        height:50px;
+        font-size:2rem;
+        margin-right:3vw;
     }
     .icon-container{
         display:grid;
