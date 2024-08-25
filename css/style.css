@@ -173,14 +173,8 @@ main{
     transform:scale(1.1);
 }
 .repo-con{
-    width:5vw;
-    height:5vw;
-    background-image: linear-gradient(to bottom ,green ,rgba(0, 128, 0, 0.756));
-    color:white;
-    border-radius: 100%;
+    color:red;
     display:flex;
-    align-items: center;
-    justify-content: center;
     font-size:1.5rem;
 }
 .s-info{
@@ -231,10 +225,7 @@ main{
        flex-direction:column;
     }
     .repo-con{
-        width:5rem;
-        height:50px;
         font-size:2rem;
-        margin-right:3vw;
     }
     .icon-container{
         display:grid;
