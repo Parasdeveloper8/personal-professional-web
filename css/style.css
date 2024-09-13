@@ -104,8 +104,6 @@ main{
     background-size: cover;
 }
 #myimage{
-    width:15vw;
-    height: 15vw;
     border-radius: 100%;
     margin-left: auto;
     margin-right: auto;
