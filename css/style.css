@@ -6,7 +6,6 @@ body{
           height:100vh;
           margin:0;
           overflow-x:hidden;
-          box-sizing: border-box;
       }
 header{
     width:100vw;
@@ -70,9 +69,6 @@ footer > h3{
 .text-center{
     display:flex;
     justify-content: center;
-}
-.foot-h1{
-   color:black;
 }
 main{
     margin-top: 15vh;
@@ -199,9 +195,10 @@ main{
     font-family: sans-serif;
 }
 @media only screen and (max-width:1100px){
-    header{
-        display:flex;
-        justify-content:space-evenly;
+    header > div{
+        /*display:flex;
+        justify-content:space-evenly;*/
+        display: none;
     }
     #myimage{
         width:50vw;
